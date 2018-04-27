@@ -15,6 +15,7 @@
 <!-- //font -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/MyJS.js"></script>
 </head>
 <body class="login_bj" >
         <div class="sub-banner">
@@ -64,12 +65,12 @@
         	<div class="bj_bai">
             <h3>登录</h3>
        	  	  <form action="" method="get">
-                <input name="" type="text" class="kuang_txt" placeholder="手机号">
+                <input id="userName" name="" type="text" class="kuang_txt" placeholder="手机号">
                 <input name="" type="text" class="kuang_txt" placeholder="密码">
                 <div>
                		<a href="#">忘记密码？</a><input name="" type="checkbox" value="" checked><span>记住我</span> 
                 </div>
-                <input name="登录" type="button" class="btn_zhuce" value="登录">
+                <input name="登录" type="button" class="btn_zhuce" value="登录" onclick="loginUser">
                 
                 </form>
             </div>
